@@ -5,9 +5,9 @@
 			"type": "colcon",
 			"args": [
 				"build",
-				"--symlink-install",
-				"--event-handlers",
-				"console_cohesion+",
+				// "--symlink-install",
+				// "--event-handlers",
+				// "console_cohesion+",
 				"--base-paths",
 				"/home/rharvey/code/ros2_for_beginners_2025/ros2_ws",
 				"--cmake-args",
