@@ -8,7 +8,8 @@
             "includePath": [
                 "/opt/ros/jazzy/include/**",
                 "/usr/include/**",
-                "/opt/ros/jazzy/include/rclcpp"
+                "/opt/ros/jazzy/include/rclcpp",
+                "/opt/ros/jazzy/include/rcl_interfaces"
             ],
             "name": "ROS",
             "intelliSenseMode": "gcc-x64",
