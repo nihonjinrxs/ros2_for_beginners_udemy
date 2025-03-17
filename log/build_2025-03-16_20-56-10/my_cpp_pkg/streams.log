@@ -1,0 +1,52 @@
+[0.020s] Invoking command in '/home/rharvey/code/ros2_for_beginners_2025/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_cpp_pkg
+[0.203s] -- The C compiler identification is GNU 13.3.0
+[0.344s] -- The CXX compiler identification is GNU 13.3.0
+[0.372s] -- Detecting C compiler ABI info
+[0.498s] -- Detecting C compiler ABI info - done
+[0.504s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.505s] -- Detecting C compile features
+[0.505s] -- Detecting C compile features - done
+[0.520s] -- Detecting CXX compiler ABI info
+[0.658s] -- Detecting CXX compiler ABI info - done
+[0.667s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.667s] -- Detecting CXX compile features
+[0.667s] -- Detecting CXX compile features - done
+[0.671s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.855s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.981s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.020s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.032s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.048s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.065s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.141s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.143s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.237s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.263s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.290s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.363s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.488s] -- Added test 'lint_cmake' to check CMake code style
+[1.490s] -- Added test 'xmllint' to check XML markup files
+[1.491s] -- Configuring done (1.5s)
+[1.498s] -- Generating done (0.0s)
+[1.500s] -- Build files have been written to: /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/build/my_cpp_pkg
+[1.511s] Invoked command in '/home/rharvey/code/ros2_for_beginners_2025/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_cpp_pkg
+[1.513s] Invoking command in '/home/rharvey/code/ros2_for_beginners_2025/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/build/my_cpp_pkg -- -j6 -l6
+[1.572s] Invoked command in '/home/rharvey/code/ros2_for_beginners_2025/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/build/my_cpp_pkg -- -j6 -l6
+[1.585s] Invoking command in '/home/rharvey/code/ros2_for_beginners_2025/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/build/my_cpp_pkg
+[1.595s] -- Install configuration: ""
+[1.595s] -- Installing: /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[1.596s] -- Installing: /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[1.596s] -- Installing: /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[1.597s] -- Installing: /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[1.597s] -- Installing: /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[1.598s] -- Installing: /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[1.598s] -- Installing: /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[1.599s] -- Installing: /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[1.599s] -- Installing: /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[1.599s] -- Installing: /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[1.599s] -- Installing: /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[1.600s] -- Installing: /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[1.600s] -- Installing: /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[1.600s] -- Installing: /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[1.601s] -- Installing: /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[1.605s] Invoked command in '/home/rharvey/code/ros2_for_beginners_2025/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/build/my_cpp_pkg
