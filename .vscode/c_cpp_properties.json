@@ -9,7 +9,8 @@
                 "/opt/ros/jazzy/include/**",
                 "/usr/include/**",
                 "/opt/ros/jazzy/include/rclcpp",
-                "/opt/ros/jazzy/include/rcl_interfaces"
+                "/opt/ros/jazzy/include/rcl_interfaces",
+                "/opt/ros/jazzy/include/rosidl_runtime_cpp"
             ],
             "name": "ROS",
             "intelliSenseMode": "gcc-x64",
