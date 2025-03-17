@@ -1,0 +1,20 @@
+[0.026s] Invoking command in '/home/rharvey/code/ros2_for_beginners_2025/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/build/my_cpp_pkg -- -j6 -l6
+[0.350s] Invoked command in '/home/rharvey/code/ros2_for_beginners_2025/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/build/my_cpp_pkg -- -j6 -l6
+[0.363s] Invoking command in '/home/rharvey/code/ros2_for_beginners_2025/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/build/my_cpp_pkg
+[0.378s] -- Install configuration: ""
+[0.379s] -- Up-to-date: /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[0.379s] -- Up-to-date: /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[0.380s] -- Up-to-date: /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[0.381s] -- Up-to-date: /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[0.382s] -- Up-to-date: /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[0.383s] -- Up-to-date: /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[0.384s] -- Up-to-date: /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[0.384s] -- Up-to-date: /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[0.384s] -- Up-to-date: /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[0.385s] -- Up-to-date: /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[0.385s] -- Installing: /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[0.388s] -- Up-to-date: /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[0.389s] -- Up-to-date: /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[0.389s] -- Up-to-date: /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[0.389s] -- Up-to-date: /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[0.393s] Invoked command in '/home/rharvey/code/ros2_for_beginners_2025/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/build/my_cpp_pkg
