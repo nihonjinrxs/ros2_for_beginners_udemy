@@ -1,0 +1,25 @@
+[0.025s] Invoking command in '/home/rharvey/code/ros2_for_beginners_2025/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/build/my_cpp_pkg -- -j6 -l6
+[0.166s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[4.236s] [100%] [32m[1mLinking CXX executable cpp_node[0m
+[4.397s] [100%] Built target cpp_node
+[4.418s] Invoked command in '/home/rharvey/code/ros2_for_beginners_2025/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/build/my_cpp_pkg -- -j6 -l6
+[4.434s] Invoking command in '/home/rharvey/code/ros2_for_beginners_2025/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/build/my_cpp_pkg
+[4.445s] -- Install configuration: ""
+[4.448s] -- Installing: /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[4.450s] -- Set non-toolchain portion of runtime path of "/home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node" to ""
+[4.451s] -- Up-to-date: /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[4.451s] -- Up-to-date: /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[4.451s] -- Up-to-date: /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[4.452s] -- Up-to-date: /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[4.452s] -- Up-to-date: /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[4.452s] -- Up-to-date: /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[4.453s] -- Up-to-date: /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[4.453s] -- Up-to-date: /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[4.458s] -- Up-to-date: /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[4.459s] -- Up-to-date: /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[4.459s] -- Installing: /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[4.459s] -- Up-to-date: /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[4.460s] -- Up-to-date: /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[4.460s] -- Up-to-date: /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[4.460s] -- Up-to-date: /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[4.461s] Invoked command in '/home/rharvey/code/ros2_for_beginners_2025/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rharvey/code/ros2_for_beginners_2025/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rharvey/code/ros2_for_beginners_2025/ros2_ws/build/my_cpp_pkg
