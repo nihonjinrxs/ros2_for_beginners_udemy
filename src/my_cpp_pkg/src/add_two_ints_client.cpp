@@ -4,10 +4,10 @@
 using namespace std::chrono_literals;
 using namespace std::placeholders;
 
-class AddTwoIntsClient : public rclcpp::Node
+class ResetCounterClient : public rclcpp::Node
 {
 public:
-  AddTwoIntsClient() : Node("add_two_ints_client")
+  ResetCounterClient() : Node("add_two_ints_client")
   {
     client_ = this-> create_client<example_interfaces::srv::AddTwoInts>("add_two_ints");
 
@@ -24,7 +24,7 @@ public:
     request->a = a;
     request->b = b;
 
-    client_->async_send_request(request, std::bind(&AddTwoIntsClient::callAddTwoIntsCallback, this, _1));
+    client_->async_send_request(request, std::bind(&ResetCounterClient::callAddTwoIntsCallback, this, _1));
   }
 
 private:
@@ -40,7 +40,7 @@ private:
 int main(int argc, char **argv)
 {
   rclcpp::init(argc, argv);
-  auto node = std::make_shared<AddTwoIntsClient>();
+  auto node = std::make_shared<ResetCounterClient>();
   node->callAddTwoInts(10, 5);
   rclcpp::spin(node);
   rclcpp::shutdown();
