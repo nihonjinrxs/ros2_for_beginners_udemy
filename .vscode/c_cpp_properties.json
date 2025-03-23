@@ -10,7 +10,8 @@
                 "/usr/include/**",
                 "/opt/ros/jazzy/include/rclcpp",
                 "/opt/ros/jazzy/include/rcl_interfaces",
-                "/opt/ros/jazzy/include/rosidl_runtime_cpp"
+                "/opt/ros/jazzy/include/rosidl_runtime_cpp",
+                "${workspaceFolder}/install/my_robot_interfaces/include/my_robot_interfaces"
             ],
             "name": "ROS",
             "intelliSenseMode": "gcc-x64",
