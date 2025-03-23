@@ -3,6 +3,7 @@ from random import randrange
 import rclpy
 from rclpy.node import Node
 from my_robot_interfaces.msg import LEDPanelState
+from my_robot_interfaces.srv import SetLED
 
 class LEDPanel(Node):
   def __init__(self):
@@ -12,20 +13,23 @@ class LEDPanel(Node):
     self.led_panel_state_publisher_ = self.create_publisher(
       LEDPanelState, "led_panel_state", 10
     )
+    self.set_led_server_ = self.create_service(SetLED, "set_led", self.set_led_callback)
     self.create_timer(1.0, self.timer_callback)
 
   def timer_callback(self):
     self.publish_led_panel_state()
-    # temporarily update state to see changes
-    led_number = randrange(self.NUM_LEDS)
-    self.set_led(led_number, not self.panel_state_[led_number])
+
+  def set_led_callback(self, request: SetLED.Request, response: SetLED.Response):
+    response.success = self.set_led(request.led_number, request.state)
+    return response
   
   def set_led(self, led_number: int, state: bool):
     if (led_number < 0):
-      led_number = 0
+      return False
     elif (led_number > self.NUM_LEDS):
-      led_number = led_number % self.NUM_LEDS
+      return False
     self.panel_state_[led_number] = state
+    return True
 
   def publish_led_panel_state(self):
     msg = LEDPanelState()
