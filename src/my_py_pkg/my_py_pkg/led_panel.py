@@ -14,7 +14,7 @@ class LEDPanel(Node):
       LEDPanelState, "led_panel_state", 10
     )
     self.set_led_server_ = self.create_service(SetLED, "set_led", self.set_led_callback)
-    self.create_timer(1.0, self.timer_callback)
+    self.create_timer(5.0, self.timer_callback)
 
   def timer_callback(self):
     self.publish_led_panel_state()
@@ -31,6 +31,7 @@ class LEDPanel(Node):
     elif (led_number >= self.NUM_LEDS):
       return False
     self.panel_state_[led_number] = state
+    self.publish_led_panel_state()
     return True
 
   def publish_led_panel_state(self):
