@@ -24,9 +24,11 @@ class LEDPanel(Node):
     return response
   
   def set_led(self, led_number: int, state: bool):
+    self.get_logger().warn(
+      "Request: led_number = " + str(led_number) + ", state = " + str(state))
     if (led_number < 0):
       return False
-    elif (led_number > self.NUM_LEDS):
+    elif (led_number >= self.NUM_LEDS):
       return False
     self.panel_state_[led_number] = state
     return True
